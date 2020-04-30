@@ -1,0 +1,13 @@
+.shadow-3 { box-shadow: 8px 8px 10px 0px rgba(67, 253, 10, 0.8) !important ;}
+
+.f1{
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .w-100 {
+      width: 85% !important;
+  }
+}

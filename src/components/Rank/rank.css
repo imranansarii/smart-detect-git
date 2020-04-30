@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&display=swap');
+
+.rank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;  
+}
+
+.rankDetails {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: 'Baloo Paaji 2', cursive;
+    letter-spacing: 2px;
+}
+
+.rankNum {
+    color: rgb(255, 254, 251);
+    font-size: 2.5rem;
+    font-family: 'Baloo Paaji 2', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+    .rank {
+        width: 96%;
+        margin: 0 auto;
+        text-align: center;
+        /* padding: 2%; */
+        
+    }
+
+    .rankDetails {
+        text-align: center;
+        padding-left: 10%;
+        padding-top: 9%;
+    }
+}

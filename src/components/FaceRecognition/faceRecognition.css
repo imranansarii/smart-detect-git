@@ -1,0 +1,27 @@
+.imgBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    position: relative;
+}
+
+.img-content {
+    position: absolute;
+}
+
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .imgBox {
+        margin-top: 4%;
+    }
+}
